@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+
+}
+
+body{
+   background-color: #fff;
+}
+
+.profile-page{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  height: 500px;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.profile-page .left{
+  width: 35%;
+  background: linear-gradient(to right);
+  padding: 30px 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  color: #000000;
+}
+
+.profile-page .left img{
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  margin-top: 40;
+}
+
+.profile-page .left h4{
+  margin-bottom: 10px;
+}
+
+.wrapper .left{
+  font-size: 12px;
+}
+
+.profile-page .right{
+  width: 65%;
+  background: #fff;
+  padding: 30px 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.profile-page .right .info,
+.profile-page .right .projects{
+  margin-bottom: 10px;
+  padding: 7px;
+}
+
+.profile-page .right .info h3,
+.profile-page .right .projects h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    color: #353c4e;
+  text-transform: uppercase;
+  padding: 7px;
+  height: 2px;
+
+}
+
+
+.profile-page .right .info_data,
+.wrapper .right .projects_data{
+  display: flex;
+}
+
+
+.profile-page .right .info_data .data h4,
+.profile-page .right .projects_data .data h4{
+    margin-bottom: 15px;
+    height: 10px;
+}
+
+.profile-page .right .info_data .data p,
+.profile-page .right .projects_data .data p{
+  font-size: 15px;
+  margin-bottom: 10px;
+  height: 10px;
+  width: 150px;
+}
+
+.profile-page .social_media ul{
+  display: flex;
+  padding: 7px;
+}
+
+.profile-page .social_media ul li{
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(to right,#01a9ac,#b2b2b2);
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+
+}
+.profile-page .social_media{
+  padding: 6px;
+}
+
+.profile-page .social_media ul li a{
+  color :#fff;
+  display: block;
+  font-size: 18px;
+}
